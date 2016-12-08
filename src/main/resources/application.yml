@@ -7,4 +7,16 @@ spring:
       server:
         git:
           uri: https://github.com/ushisoft/config-repo
-          searchPaths: '${profile}'
+          repos:
+            dev:
+              pattern: '*/dev'
+              uri: https://github.com/ushisoft/config-repo
+              searchPaths: dev
+            qa:
+              pattern: '*/qa'
+              uri: https://github.com/ushisoft/config-repo
+              searchPaths: qa
+
+  rabbitmq:
+    host: localhost
+    port: 32769
