@@ -18,7 +18,8 @@
     </parent>
 
     <properties>
-
+        <start-class>io.ushi.ConfigServerApplication</start-class>
+        <docker.image.prefix>ushi-service</docker.image.prefix>
     </properties>
 
     <dependencies>
