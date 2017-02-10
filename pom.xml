@@ -19,7 +19,7 @@
 
     <properties>
         <start-class>io.ushi.ConfigServerApplication</start-class>
-        <docker.image.prefix>ushi-service</docker.image.prefix>
+        <docker.image.prefix>ushicloud</docker.image.prefix>
     </properties>
 
     <dependencies>

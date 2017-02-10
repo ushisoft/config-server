@@ -18,6 +18,6 @@ spring:
               searchPaths: qa
 
   rabbitmq:
-    host: localhost
+    host: rabbitmq
     port: 5672
 
