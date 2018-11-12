@@ -1,11 +1,8 @@
 spring:
   application:
-    name: configserver
+    name: config-server
 
-encrypt:
-  failOnError: false
-  keyStore:
-    location: classpath:server.jks
-    password: ${KEYSTORE_PASSWORD:letmein}
-    alias: mytestkey
-    secret: changeme
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

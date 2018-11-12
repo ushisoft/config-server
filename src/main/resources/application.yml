@@ -4,20 +4,4 @@ server:
 spring:
   cloud:
     config:
-      server:
-        git:
-          uri: https://github.com/ushisoft/config-repo
-          repos:
-            dev:
-              pattern: '*/dev'
-              uri: https://github.com/ushisoft/config-repo
-              searchPaths: dev
-            qa:
-              pattern: '*/qa'
-              uri: https://github.com/ushisoft/config-repo
-              searchPaths: qa
-
-  rabbitmq:
-    host: rabbitmq
-    port: 5672
-
+      server.git.uri: https://github.com/ushisoft/config-repo
