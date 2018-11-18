@@ -1,4 +1,4 @@
-package io.ushi;
+package io.ushi.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
